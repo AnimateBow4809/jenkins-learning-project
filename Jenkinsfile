@@ -5,13 +5,20 @@ pipeline {
         jdk 'jdk'
         }
     stages {
-
-        stage('Build') {
+        stage('MVN Install') {
             steps {
                 sh 'mvn --version'
                 sh 'java --version'
+                sh "mvn compile"
             }
         }
+        stage('MVN Test') {
+            steps {
+                sh "mvn test"
+
+            }
+        }
+
     }
 }
 
