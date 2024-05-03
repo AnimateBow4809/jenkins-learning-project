@@ -2,9 +2,18 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Build') {
+            agent{
+                docker{
+                    image 'openjdk:11'
+                    reuseNode true
+                }
+            }
             steps {
-                echo 'Hello World'
+               sh '''
+                    echo "hi"
+
+               '''
             }
         }
     }
