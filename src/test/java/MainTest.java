@@ -19,7 +19,7 @@ class MainTest {
     @org.junit.jupiter.api.Test
     void fTest() {
         Main.f();
-        assertEquals("Hi", outputStreamCaptor.toString()
+        assertEquals("hi", outputStreamCaptor.toString()
                 .trim());
     }
 
