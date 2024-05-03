@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             agent{
                 docker{
-                    image 'openjdk:11'
+                    image 'openjdk:17-jdk-slim'
                     reuseNode true
                 }
             }
