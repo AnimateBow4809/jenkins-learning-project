@@ -22,7 +22,7 @@ pipeline {
     }
     post{
         always{
-            juint 'target/surefire-reports/TEST-MainTest.xml'
+            junit 'target/surefire-reports/TEST-MainTest.xml'
         }
     }
 }
