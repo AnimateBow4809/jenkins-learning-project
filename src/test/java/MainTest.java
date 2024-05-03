@@ -39,6 +39,6 @@ class MainTest {
     @Test
     void mul() {
         int ans=Main.mul(1,2);
-        assertEquals(ans,3);
+        assertEquals(ans,2);
     }
 }
