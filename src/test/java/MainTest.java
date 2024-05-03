@@ -1,6 +1,7 @@
 import org.junit.Assert;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
@@ -16,7 +17,7 @@ class MainTest {
         System.setOut(new PrintStream(outputStreamCaptor));
     }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void fTest() {
         Main.f();
         assertEquals("hi", outputStreamCaptor.toString()
@@ -26,5 +27,18 @@ class MainTest {
     @AfterEach
     public void tearDown() {
         System.setOut(standardOut);
+    }
+
+
+    @Test
+    void add() {
+        int ans=Main.add(1,2);
+        assertEquals(ans,3);
+    }
+
+    @Test
+    void mul() {
+        int ans=Main.mul(1,2);
+        assertEquals(ans,3);
     }
 }
