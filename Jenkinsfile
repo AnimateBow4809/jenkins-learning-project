@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             agent{
                 docker{
-                    image 'openjdk:17-jdk-slim'
+                    image 'eclipse-temurin:17-jre-focal'
                     reuseNode true
                 }
             }
