@@ -24,6 +24,7 @@ class MainTest {
                 .trim());
     }
 
+
     @AfterEach
     public void tearDown() {
         System.setOut(standardOut);
