@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc237803-0574-4fe5-b0e7-dc09d6fcdf61" name="Changes" comment="start">
-      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest">
+  <component name="RunManager" selected="JUnit.MainTest.mul">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="jenkins-learning-project" />
@@ -72,8 +72,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.mul" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jenkins-learning-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="METHOD_NAME" value="mul" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest.mul" />
         <item itemvalue="JUnit.MainTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -90,7 +101,7 @@
       <workItem from="1714765649536" duration="537000" />
       <workItem from="1714766213361" duration="1311000" />
       <workItem from="1714767739273" duration="596000" />
-      <workItem from="1714768358644" duration="6325000" />
+      <workItem from="1714768358644" duration="7371000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1714766031884</created>
@@ -190,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714776340121</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="start">
+      <created>1714776737238</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714776737238</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

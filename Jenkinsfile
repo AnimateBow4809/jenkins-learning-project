@@ -9,13 +9,17 @@ pipeline {
             steps {
                 sh 'mvn --version'
                 sh 'java --version'
-                sh "mvn compile"
+                sh "mvn install"
             }
         }
         stage('MVN Test') {
             steps {
                 sh "mvn test"
-
+            }
+        }
+        stage('Deploy'){
+            steps{
+                sh 'mvn deploy'
             }
         }
 
