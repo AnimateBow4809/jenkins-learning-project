@@ -18,8 +18,8 @@ class MainTest {
     }
 
     @Test
-    void fTest() {
-        Main.f();
+    void printTest() {
+        Main.print();
         assertEquals("hi", outputStreamCaptor.toString()
                 .trim());
     }

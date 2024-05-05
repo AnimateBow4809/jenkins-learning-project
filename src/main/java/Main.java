@@ -1,6 +1,6 @@
 public class Main {
 
-    public static void f(){
+    public static void print(){
         System.out.println("hi");
     }
 
@@ -24,7 +24,4 @@ public class Main {
     }
 
 
-    public static void main(String[] args) {
-        f();
-    }
 }
