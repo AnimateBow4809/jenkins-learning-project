@@ -42,4 +42,14 @@ class MainTest {
         int ans=Main.mul(1,2);
         assertEquals(ans,2);
     }
+
+    @Test
+    void mul2() {
+        assertEquals(6,Main.mul2(2,4));
+    }
+
+    @Test
+    void div() {
+        assertEquals(1,Main.div(2,2));
+    }
 }
