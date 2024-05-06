@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc237803-0574-4fe5-b0e7-dc09d6fcdf61" name="Changes" comment="changed jenkins file">
+    <list default="true" id="dc237803-0574-4fe5-b0e7-dc09d6fcdf61" name="Changes" comment="added commented files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -103,7 +103,8 @@
       <workItem from="1714766213361" duration="1311000" />
       <workItem from="1714767739273" duration="596000" />
       <workItem from="1714768358644" duration="7371000" />
-      <workItem from="1714949914259" duration="1952000" />
+      <workItem from="1714949914259" duration="2069000" />
+      <workItem from="1714969090324" duration="766000" />
     </task>
     <task id="LOCAL-00001" summary="start">
       <created>1714766031884</created>
@@ -231,7 +232,21 @@
       <option name="project" value="LOCAL" />
       <updated>1714951132440</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added commented files">
+      <created>1714952038595</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714952038595</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added commented files">
+      <created>1714952122492</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714952122492</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +266,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="changed jenkins file" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed jenkins file" />
+    <MESSAGE value="added commented files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added commented files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
